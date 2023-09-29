@@ -1,0 +1,55 @@
+.Header{
+    font-family: Comic Sans MS;
+    display: block;
+    position: fixed;
+    text-align: center;
+    background-color: rgb(117, 38, 117);
+    color: aliceblue;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    }
+    
+    .VideoDisplay{
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    }
+    
+    .CONDENSE{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    }
+    
+    .Pluh{
+    background-color: transparent;
+    color: white;
+    margin-top: 687px;
+    display: block;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin-bottom: 0;
+    position: absolute;
+    }
+    
+    .Squre{
+    align-items: center;
+    display: block;
+    position: absolute;
+    }
+    
+    .Trans{
+    width: 100%;
+    height: 400px;
+    display: block;
+    color: transparent;
+    align-items: center;
+    }
