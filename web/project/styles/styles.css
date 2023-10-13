@@ -1,0 +1,177 @@
+/* General stuff */ 
+*{
+    margin: 0;
+}
+
+
+/* Fonts */
+
+@font-face{
+    font-family: 'verdana';
+    src: local('verdana'), url('../fonts/verdana.ttf'),format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Verdana {
+    font-family: 'verdana';
+}
+
+.text{
+    font-family: "owners", sans-serif;
+    font-weight: 100000000000000000000000000000000000000000000000000000000;
+    font-style: bold;
+}
+/* DIVS */
+.menu { 
+    color: white;
+    font-size: 20px;
+    
+}
+
+.smallYellowText{
+    color: #fcb900;
+    font-size: 10px;
+}
+
+.ban-text{
+    font-size: small;
+}
+
+.banner{ 
+    position: fixed;
+    /* top: 0;
+    left: 0; */
+    width: 100%;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    text-align: center;
+    color: white;
+    background-color: blueviolet;
+    font-size: 10px;
+}
+
+.rcorners {
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    z-index: 1;
+}
+
+.yellowcorners {
+    border-radius: 25px;
+    color: black;
+    border: 2px solid #DBFF00;
+    padding: 10px;
+    width: auto;
+    height: auto;
+}
+
+.header-row{
+    width: 50%;
+    display: flex;
+    padding: 20px;
+
+}
+
+
+.menu-button{
+    display: inline;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.drop-text{
+    color: white;
+    /* text-align: center; */
+    padding-left: 5%;
+    font-size: 20px;
+    padding-top: 1%;
+}
+
+.drop-wrapping{
+    padding-block: 5rem;
+}
+
+
+
+/* Videos */
+
+video{
+    object-fit: cover;
+    width: 100vw;
+    height: 75vh;
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index: -1;
+}
+
+
+.background_video{
+    height: 70vh;
+}
+/* Images */ 
+
+.drop-section{
+    background-image: url("https://www.accesscreative.ac.uk/wp-content/themes/access-creative/images/backgrounds/Background-Texture.jpg");
+    position: relative;
+    margin-top: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-block: 5rem;
+}
+
+/* Drop down */
+/* Dropdown Button */
+.dropbtn {
+    background-color: #000000;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    z-index: 1;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #000000;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}

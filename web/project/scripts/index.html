@@ -1,0 +1,130 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <script src="../scripts/site.js"></script>
+    <script src="../scripts/dropdown.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="content">
+        <div class="video-section">
+            <!-- BANNER -->
+            <div class="banner">
+                <h1 class="text ban-text">LAST CHANCE CAMPUS TOURS-BOOK NOW</h1>
+            </div>
+            <!-- VIDEO WITH BUTTONS -->
+            <div id="wrapper">
+                <div class="header">
+                    <div class="header-row">
+                        <!-- ACTUAL VIDEO -->
+                        <video id="background_video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+                            <source src="https://www.accesscreative.ac.uk/wp-content/uploads/2022/12/bv-launch.webm" type="video/webm">
+                        </video> 
+                        <!-- BUTTONS -->
+                        <div class="ac-logo menu-button">
+                            <img src = "../imgs/access-creative-logo-icon.png" width="44" height="44">
+                        </div>
+                        <div class="menu-button">
+                            <h1 class="text menu rcorners">☰ MENU</h1>
+                        </div>
+                        <div class="apply">
+                            <h1 class="text menu yellowcorners"> APPLY</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- DROPDOWN MENU -->
+    <div class="drop-section">
+        <div class="drop-wrapper rcorners text">
+            <h2 class="drop-text">
+                FIND YOUR PATH
+                <a class="smallYellowText text">See all courses</a>
+            </h2>
+            <!-- ACTUAL DROPDOWNS -->
+            <div class="dropdown pathway ">
+                <button onclick="myPathway()" class="dropbtn">Choose a pathway</button>
+                <div id="myDropdownPath" class="dropdown-content">
+                  <a href="#">Choose a pathway</a>
+                  <a href="#">Games</a>
+                  <a href="#">Music</a>
+                  <a href="#">Media</a>
+                  <a href="#">Computing</a>
+                  <a href="#">E-sports</a>
+                  <a href="#">Access to HE</a>
+                  <a href="#">Events</a>
+                  <a href="#">Test</a>
+                </div>
+            </div>
+            <div class="dropdown location">
+                <button onclick="myLocation()" class="dropbtn">Choose a location</button>
+                <div id="myDropdownLocation" class="dropdown-content">
+                  <a href="#">Choose a location</a>
+                  <a href="#">Birmingham</a>
+<a href="#">Bristol</a>
+                  <a href="#">Lincoln</a>
+                  <a href="#">London</a>
+                  <a href="#">Manchester</a>
+                  <a href="#">Norwich</a>
+                  <a href="#">Plymouth</a>
+                </div>
+            </div>
+            <div class="dropdown level">
+                <button onclick="myLevel()" class="dropbtn">Choose a level</button>
+                <div id="myDropdownLevel" class="dropdown-content">
+                  <a href="#">Choose a level</a>
+                  <a href="#">Level 2</a>
+                  <a href="#">T Level</a>
+                  <a href="#">Level 3</a>
+                  <a href="#">Level 4</a>
+                  <a href="#">Level 5</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- IMAGES -->
+    <div class="promos">
+        <div class="taster-days">
+            <!-- TASTER DAY IMG -->
+            <!-- <div style="background-image: url(https://www.accesscreative.ac.uk/wp-content/uploads/2023/09/TasterDay_23-scaled.jpg);"> -->
+            <div class="taster-day">
+                <div class="taster-img">
+                    <img src="https://www.accesscreative.ac.uk/wp-content/uploads/2023/09/TasterDay_23-scaled.jpg" />
+                </div>
+                <div class="promo-text">
+                    <h1 class="text">Taster Day</h1>
+                    <p class="text">25th November 2023</p>
+                    <p class="text">Birmingham | Bristol | Lincoln | London | Manchester | Norwich | Plymouth</p>
+                </div>
+            </div>
+            <div class="meet-greet">
+                <div class="meet-img">
+                    <img src="https://www.accesscreative.ac.uk/wp-content/uploads/2023/09/MeetGreet-1-scaled.jpg" />
+                </div>
+                <div class="promo-text">
+                    <h1 class="text">Meet and greet Campus Tours</h1>
+                    <p class="text">19th september 2023 - 1st september 2024</p>
+                    <p class="text">Birmingham | Bristol | Lincoln | London | Manchester | Norwich | Plymouth</p>
+                </div>
+            </div>
+            <div class="last-chance">
+                
+                <div class="promo-text">
+                    <h1 class="text">Last Chance Campus Tour</h1>
+                    <p class="text">25th November 2023</p>
+                    <p class="text">Birmingham | Bristol | Lincoln | London | Manchester | Norwich | Plymouth</p>
+                </div>
+            </div>
+            
+
+            
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
